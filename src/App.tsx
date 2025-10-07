@@ -104,7 +104,7 @@ const categoryData = {
       {
         name: "BRAIDED",
         description: "Classic braided ribbon designs",
-        imageUrl: "public/cover-images/ribbon-cover/braided cover.png",
+        imageUrl: "/cover-images/ribbon-cover/braided cover.png",
         subSubcategories: [
           { 
             name: "Braided", 
@@ -127,7 +127,7 @@ const categoryData = {
       {
         name: "DIE CUT",
         description: "Intricately cut ribbons with unique patterns",
-        imageUrl: "public/cover-images/ribbon-cover/Cover_DieCut.jpg", 
+        imageUrl: "/cover-images/ribbon-cover/Cover_DieCut.jpg", 
         subSubcategories: [
           { 
             name: "Die Cut", 
@@ -138,7 +138,7 @@ const categoryData = {
       {
         name: "PEARL RIBBONS",
         description: "Elegant pearl-embellished ribbons",
-        imageUrl: "public/cover-images/ribbon-cover/Cover_Pearl.png",
+        imageUrl: "/cover-images/ribbon-cover/Cover_Pearl.png",
         subSubcategories: [
           { 
             name: "Pearl Ribbons", 
@@ -149,7 +149,7 @@ const categoryData = {
       {
         name: "EMBROIDERED RIBBONS",
         description: "Hand-embroidered ribbons - Floral, Sequins, Embellished, Mirror work",
-        imageUrl: "public/cover-images/ribbon-cover/sequin cover.png",
+        imageUrl: "/cover-images/ribbon-cover/sequin cover.png",
         subSubcategories: [
           { 
             name: "Floral", 
@@ -281,7 +281,7 @@ const categoryData = {
     type: "simple" as const,
     name: "Spools",
     coverImageUrl: "/cover-images/spool cover.jpeg",
-    images: generateImages(['paperspool-1.jpg', 'paperspool-2.jpg', 'woodenspool-1.jpg', 'woodenspool-2.png'], "Ribbon Spool", "spools"),
+    images: generateImages(['paperspool-1.jpg', 'woodenspool-2.png'], "Ribbon Spool", "spools"),
   },
   "tree-toppers": {
     type: "simple" as const,

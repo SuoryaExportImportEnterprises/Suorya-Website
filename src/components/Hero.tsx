@@ -25,7 +25,7 @@ export function Hero() {
             </h1>
           </div>
 
-          <p className="text-lg md:text-xl text-stone-600 leading-relaxed max-w-xl">
+          <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
             Where premium craftsmanship meets chic design. Celebrating over two
             decades of expertise in creating ribbons, trims, and décor that
             transform ordinary moments into extraordinary memories.

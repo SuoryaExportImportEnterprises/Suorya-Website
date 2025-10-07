@@ -30,7 +30,7 @@ export function VisionSection() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="public/home/designstudio2.jpg" 
+                src="/home/designstudio2.jpg" 
                 alt="Craftsmanship detail"
                 className="w-full h-full object-cover aspect-[16/10]"
                 onError={(e) => { e.currentTarget.src = 'https://placehold.co/1080x675/f3f4f6/000?text=Image+2'; e.currentTarget.style.backgroundColor = '#f3f4f6'; }}
